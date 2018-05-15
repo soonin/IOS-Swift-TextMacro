@@ -12,6 +12,8 @@
 		FA48295C20AB171100DFA578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA48295A20AB171100DFA578 /* Main.storyboard */; };
 		FA48295E20AB171200DFA578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA48295D20AB171200DFA578 /* Assets.xcassets */; };
 		FA48296120AB171200DFA578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA48295F20AB171200DFA578 /* LaunchScreen.storyboard */; };
+		FA48296D20AB188300DFA578 /* Filetest01.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48296C20AB188300DFA578 /* Filetest01.swift */; };
+		FA48296F20AB196E00DFA578 /* TextMacroSample.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA48296E20AB196E00DFA578 /* TextMacroSample.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FA48295D20AB171200DFA578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA48296020AB171200DFA578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA48296220AB171200DFA578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA48296C20AB188300DFA578 /* Filetest01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filetest01.swift; sourceTree = "<group>"; };
+		FA48296E20AB196E00DFA578 /* TextMacroSample.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = TextMacroSample.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FA48295D20AB171200DFA578 /* Assets.xcassets */,
 				FA48295F20AB171200DFA578 /* LaunchScreen.storyboard */,
 				FA48296220AB171200DFA578 /* Info.plist */,
+				FA48296E20AB196E00DFA578 /* TextMacroSample.rtf */,
+				FA48296C20AB188300DFA578 /* Filetest01.swift */,
 			);
 			path = "IOS-Swift-TextMacro";
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				FA48296120AB171200DFA578 /* LaunchScreen.storyboard in Resources */,
 				FA48295E20AB171200DFA578 /* Assets.xcassets in Resources */,
+				FA48296F20AB196E00DFA578 /* TextMacroSample.rtf in Resources */,
 				FA48295C20AB171100DFA578 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA48296D20AB188300DFA578 /* Filetest01.swift in Sources */,
 				FA48295920AB171100DFA578 /* ViewController.swift in Sources */,
 				FA48295720AB171100DFA578 /* AppDelegate.swift in Sources */,
 			);
